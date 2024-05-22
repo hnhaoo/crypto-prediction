@@ -1,1 +1,1 @@
-# Handwritten-recognize
+# cripto prediction
