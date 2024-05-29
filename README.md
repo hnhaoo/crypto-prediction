@@ -1,1 +1,1 @@
-# cripto prediction
+# crypto prediction
