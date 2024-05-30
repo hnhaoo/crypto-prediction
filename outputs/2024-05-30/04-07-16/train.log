@@ -1,0 +1,67 @@
+[2024-05-30 04:07:16,516][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\data_loader\creator.py:27: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Mean'] = (df['Low'] + df['High']) / 2
+
+[2024-05-30 04:07:27,401][factory.trainer][INFO] - Training started.
+[2024-05-30 04:07:36,759][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2024-05-30 04:07:36,759][factory.trainer][INFO] - Training is completed in 9.36 seconds.
+[2024-05-30 04:07:36,760][factory.evaluator][INFO] - Evaluating started.
+[2024-05-30 04:07:37,254][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 04:07:37,259][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 04:07:37,264][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 04:07:37,268][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 04:07:37,633][factory.profit_calculator][INFO] - Low price training started.
+[2024-05-30 04:07:37,635][factory.trainer][INFO] - Training started.
+[2024-05-30 04:07:46,644][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2024-05-30 04:07:46,644][factory.trainer][INFO] - Training is completed in 9.01 seconds.
+[2024-05-30 04:07:47,109][factory.profit_calculator][INFO] - High price training started.
+[2024-05-30 04:07:47,113][factory.trainer][INFO] - Training started.
+[2024-05-30 04:07:52,825][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2024-05-30 04:07:52,825][factory.trainer][INFO] - Training is completed in 5.71 seconds.

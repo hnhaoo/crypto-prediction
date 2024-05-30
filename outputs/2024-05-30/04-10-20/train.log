@@ -1,0 +1,71 @@
+[2024-05-30 04:10:20,902][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\data_loader\creator.py:27: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Mean'] = (df['Low'] + df['High']) / 2
+
+[2024-05-30 04:10:31,553][factory.trainer][INFO] - Training started.
+[2024-05-30 04:11:05,240][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2024-05-30 04:11:05,242][factory.trainer][INFO] - Training is completed in 33.69 seconds.
+[2024-05-30 04:11:05,245][factory.evaluator][INFO] - Evaluating started.
+[2024-05-30 04:11:05,273][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 04:11:05,282][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 04:11:05,290][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 04:11:05,295][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 04:11:05,657][factory.profit_calculator][INFO] - Low price training started.
+[2024-05-30 04:11:05,660][factory.trainer][INFO] - Training started.
+[2024-05-30 04:11:36,699][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2024-05-30 04:11:36,699][factory.trainer][INFO] - Training is completed in 31.04 seconds.
+[2024-05-30 04:11:36,717][factory.profit_calculator][INFO] - High price training started.
+[2024-05-30 04:11:36,721][factory.trainer][INFO] - Training started.
+[2024-05-30 04:11:59,434][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2024-05-30 04:11:59,435][factory.trainer][INFO] - Training is completed in 22.71 seconds.
+[2024-05-30 04:11:59,527][__main__][INFO] - 
+               | accuracy_score|    f1_score   |  recall_score |precision_score|      MAE      |      RMSE     |      MAPE     |     SMAPE     |      MASE     |      MSLE     
+validation-0   |     0.567     |     0.545     |     0.556     |     0.534     |    1374.60    |    1799.84    |      5.71     |      5.42     |      2.20     |     0.006     
+

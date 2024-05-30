@@ -1,0 +1,8 @@
+[2024-05-30 04:13:01,275][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\data_loader\creator.py:27: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Mean'] = (df['Low'] + df['High']) / 2
+
+[2024-05-30 04:13:11,389][factory.trainer][INFO] - Training started.

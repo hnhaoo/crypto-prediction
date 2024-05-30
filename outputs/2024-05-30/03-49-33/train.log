@@ -1,0 +1,116 @@
+[2024-05-30 03:49:33,937][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\data_loader\creator.py:27: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Mean'] = (df['Low'] + df['High']) / 2
+
+[2024-05-30 03:49:44,398][factory.trainer][INFO] - Training started.
+[2024-05-30 03:49:44,400][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\models\orbit.py:26: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data_x[regressors] = data_x[regressors].astype(float)
+
+[2024-05-30 03:49:44,405][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\models\orbit.py:27: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data_x[self.response_col] = data_x[self.response_col].astype(float)
+
+[2024-05-30 03:49:44,421][orbit][INFO] - Sampling (CmdStanPy) with chains: 4, cores: 8, temperature: 1.000, warmups (per chain): 225 and samples(per chain): 25.
+[2024-05-30 03:51:48,626][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2024-05-30 03:51:48,627][factory.trainer][INFO] - Training is completed in 124.23 seconds.
+[2024-05-30 03:51:48,627][factory.evaluator][INFO] - Evaluating started.
+[2024-05-30 03:51:49,058][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 03:51:49,062][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 03:51:49,066][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 03:51:49,070][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\utils\reporter.py:33: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
+A typical example is when you are setting values in a column of a DataFrame, like:
+
+df["col"][row_indexer] = value
+
+Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in a single step and ensure this keeps updating the original `df`.
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+  self.df_of_cross_validation.iloc[self.counter_cross_validation][metric_name] = value
+
+[2024-05-30 03:51:49,407][factory.profit_calculator][INFO] - Low price training started.
+[2024-05-30 03:51:49,410][factory.trainer][INFO] - Training started.
+[2024-05-30 03:51:49,411][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\models\orbit.py:26: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data_x[regressors] = data_x[regressors].astype(float)
+
+[2024-05-30 03:51:49,415][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\models\orbit.py:27: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data_x[self.response_col] = data_x[self.response_col].astype(float)
+
+[2024-05-30 03:51:49,430][orbit][INFO] - Sampling (CmdStanPy) with chains: 4, cores: 8, temperature: 1.000, warmups (per chain): 225 and samples(per chain): 25.
+[2024-05-30 03:53:55,713][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2024-05-30 03:53:55,714][factory.trainer][INFO] - Training is completed in 126.30 seconds.
+[2024-05-30 03:53:56,194][factory.profit_calculator][INFO] - High price training started.
+[2024-05-30 03:53:56,198][factory.trainer][INFO] - Training started.
+[2024-05-30 03:53:56,201][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\models\orbit.py:26: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data_x[regressors] = data_x[regressors].astype(float)
+
+[2024-05-30 03:53:56,208][py.warnings][WARNING] - D:\hoc\Code\cryptopredictions\crypto-prediction\models\orbit.py:27: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data_x[self.response_col] = data_x[self.response_col].astype(float)
+
+[2024-05-30 03:53:56,233][orbit][INFO] - Sampling (CmdStanPy) with chains: 4, cores: 8, temperature: 1.000, warmups (per chain): 225 and samples(per chain): 25.
+[2024-05-30 03:55:56,290][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2024-05-30 03:55:56,290][factory.trainer][INFO] - Training is completed in 120.09 seconds.
+[2024-05-30 03:55:56,753][__main__][INFO] - 
+               | accuracy_score|    f1_score   |  recall_score |precision_score|      MAE      |      RMSE     |      MAPE     |     SMAPE     |      MASE     |      MSLE     
+validation-0   |     0.591     |     0.576     |     0.596     |     0.557     |    2189.85    |    2479.71    |      9.19     |      8.62     |      3.50     |     0.011     
+
