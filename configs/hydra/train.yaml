@@ -1,0 +1,12 @@
+defaults:
+  - _self_
+  - model: arima #orbit - random_forest - sarimax - lstm - gru - prophet - xgboost - neural_prophet - arima
+  - dataset_loader: CoinMarket #Bitmex
+  - metrics
+
+validation_method: simple #simple - cross_validation
+symbol: BITCOIN
+load_path: D:\hoc\Code\cryptopredictions\crypto-prediction\data\XBTUSD-1d-data.csv
+save_dir:
+dataset_path:
+
